@@ -1,0 +1,107 @@
+body {
+  background-image: linear-gradient(to right, blue, white, white, blue);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto 5%;
+}
+
+
+
+body header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+  padding: auto;
+  background: rgba(255, 255, 255, 10);
+  padding: 4%;
+  margin: 35%;
+  margin-top: 10%;
+
+  box-shadow: -10px 6px 40px rgb(71, 71, 246);
+  border-radius: 30px;
+  transition: 0.5s;
+
+}
+
+main:hover {
+  transition: 0.2s;
+  background: rgba(0, 0, 0, 0.9);
+  box-shadow: 10px 6px 40px rgb(71, 71, 246);
+  color: white;
+
+
+}
+
+main h2 {
+  font-weight: bold;
+  color: blue;
+  letter-spacing: 2px;
+}
+
+/* H1 e H2 */
+
+
+.blue {
+  display: flex;
+  background: rgba(0, 0, 255, 0.8);
+  font-family: 'Abril Fatface', serif;
+  font-style: italic;
+  margin-left: -10%;
+  margin-right: -10%;
+  margin-top: -30%;
+  padding: -5%;
+  font-size: 15px;
+
+  border-radius: 30px 15px;
+  box-shadow: 5px 20px 25px rgba(0, 0, 255, 0.3);
+  color: rgba(12, 12, 12, 0.9);
+  transition: 0.7s;
+}
+
+.blue:hover {
+  transition: 0.7s;
+  background: rgba(0, 0, 255, 0.9);
+
+  border-radius: 30px 30px;
+  box-shadow: 10px -10px 25px rgba(0, 0, 255, 0.4);
+  color: rgba(0, 0, 0, 0.9);
+
+}
+
+.blue2 {
+  display: flex;
+  font-family: 'Dancing Script', cursive;
+  letter-spacing: 2px;
+  margin: 5% 0 -5% 0;
+  text-shadow: 2px 9px 3px rgba(66, 72, 83, 0.5);
+}
+
+/* End H1 e H2 */
+
+main input {
+  display: flex;
+  border-radius: 3px;
+  border: 2px solid rgba(9, 9, 124, 0.7);
+  background: rgb(12, 12, 214);
+  color: white
+}
+
+.button {
+  margin: 15% 15%;
+  border-radius: 10px;
+  background: rgba(255, 255, 0, 0.9);
+  border: 2px solid;
+}
+
+.button:hover {
+  background: red;
+  font-weight: 500;
+}
